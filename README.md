@@ -70,5 +70,6 @@ npm run dev
 
 La aplicación estará disponible en http://localhost:5173.
 
-📫 Autor
-💼 Carlos Mogollon [https://www.linkedin.com/in/carlosmogollon-it/]
+### 📫 Autor
+
+- 💼 [**Carlos Mogollon**](https://www.linkedin.com/in/carlosmogollon-it/)
