@@ -46,7 +46,7 @@ function App() {
   }
   return (
     <div className='app'>
-      <h1>GitHub Porfile Searcher</h1>
+      <h1>GitHub Profile Searcher</h1>
       <hr />
       <SearchBar onSearch={handleSearch} />
       <UserCardsContainer
