@@ -1,0 +1,65 @@
+/* src/components/UserCard/UserCard.css */
+.card {
+    background-color: #161b22;
+    /* Un gris muy oscuro */
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: var(--shadow-standard);
+    transition: border-color 0.2s;
+}
+
+.card:hover {
+    border-color: #8b949e;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 2px solid var(--accent-blue);
+}
+
+.card-name {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn-github,
+.btn-repos {
+    padding: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.btn-github {
+    background-color: var(--accent-green);
+    color: var(--white);
+}
+
+.btn-repos {
+    background-color: var(--accent-blue);
+    color: var(--white);
+}
+
+.btn-github:hover,
+.btn-repos:hover {
+    opacity: 0.85;
+}

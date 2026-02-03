@@ -1,0 +1,58 @@
+/* src/components/SearchBar/SearchBar.css */
+.search-container {
+    width: 100%;
+    max-width: 1120px;
+    /* Esto suele alinear con 4 tarjetas de 260px + gaps */
+    margin: 0 auto 3rem auto;
+    /* El auto de los costados la centra */
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    display: flex;
+    width: 100%;
+    /* Ocupa todo el ancho del container */
+    gap: 15px;
+}
+
+.search-input {
+    flex: 1;
+    /* CLAVE: Esto hace que el input crezca y ocupe todo el espacio disponible */
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--white);
+    color: #333;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow-standard);
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: var(--gray-placeholder);
+}
+
+.search-button {
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--accent-blue);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: var(--shadow-standard);
+    transition: all 0.2s;
+    white-space: nowrap;
+    /* Evita que el texto del botón se parta */
+}
+
+.search-button:hover {
+    background-color: #1a6ed8;
+    transform: translateY(-1px);
+    /* Efecto sutil de elevación */
+}
+
+.search-button:active {
+    transform: translateY(0);
+}
